@@ -12,8 +12,8 @@ module Hangman
     def save_question
         puts "Would you like to save your game?"
         puts "y/n"
-        save_option = gets.chomp
-        save_option
+        save_choice= gets.chomp
+        save_choice
     end
   end
 end

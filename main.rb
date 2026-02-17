@@ -32,8 +32,8 @@ end
 game.play_hangman
 
 while game.lives > 0
-        save_option = save_question
-      if save_option == "y"
+        save_choice = save_question
+      if save_choice == "y"
         save(game, "one")
       end
       game.play_hangman
