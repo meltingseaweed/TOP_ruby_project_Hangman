@@ -1,0 +1,28 @@
+--- !ruby/object:Hangman::Game
+word: transparent
+save_name: one
+word_array:
+- t
+- r
+- a
+- "n"
+- s
+- p
+- a
+- r
+- e
+- "n"
+- t
+lives: 4
+correct_letters:
+- s
+- a
+- r
+- p
+- t
+- "n"
+incorrect_letters:
+- g
+- j
+- o
+- i
